@@ -8,8 +8,8 @@ service:
   # 通常情况下 插件无法连接到EasyBot软件时会禁止所有玩家登陆游戏
   # 忽略错误后,玩家可以正常登陆且不进行任何检查(就算服务器处于强制绑定)
   ignore_error: false
-  # 是否在服务端接收插件更新推送
-  update_notify: true
+  # 更新检测已删除.
+  update_notify: false
 
 # 命令设置
 command:
